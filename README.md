@@ -133,7 +133,7 @@ By default, ARC sends regression data to the /regression endpoint after each com
 
 Julian De Los Prados - jad9679@nyu.edu
 
-Project Link: [https://github.com/jdelosprados/accessibilities-checker](https://github.com/jdelosprados/accessibilities-checker)
+Project Link: [https://github.com/jdelosprados/accessibility-regression-checker](https://github.com/jdelosprados/accessibility-regression-checker)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
