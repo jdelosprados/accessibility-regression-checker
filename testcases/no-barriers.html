@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An accessible webpage with no barriers.">
+  <title>Accessible Webpage</title>
+</head>
+<body>
+  <!-- Skip navigation link for screen readers -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header section with accessible navigation -->
+  <header>
+    <h1>Welcome to an Accessible Webpage</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main id="main-content">
+    <section id="section1">
+      <h2>Section 1</h2>
+      <p>This section contains accessible content with proper structure and semantic tags.</p>
+      <img src="example.jpg" alt="A descriptive alt text for the image.">
+    </section>
+
+    <section id="section2">
+      <h2>Section 2</h2>
+      <p>All interactive elements, such as buttons and links, are keyboard accessible.</p>
+      <button onclick="alert('This is a button with accessible functionality.')" aria-label="Accessible Button">Click Me</button>
+    </section>
+
+    <section id="section3">
+      <h2>Section 3</h2>
+      <p>Ensure proper contrast ratios for text and background colors.</p>
+      <p style="color: #000; background-color: #fff;">This text meets contrast guidelines.</p>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2024 Accessible Webpage. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

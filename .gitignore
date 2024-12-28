@@ -1,0 +1,41 @@
+# Dockerfile
+.Dockerfile
+
+# Environment files
+.env
+.env.*
+
+# Node modules
+node_modules/
+
+# Database files
+db/scan_results.db
+db/*.backup
+db/*.sqlite
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Build files
+dist/
+build/
+tmp/
+*.tmp
+
+# Test coverage
+coverage/
+*.lcov
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker overrides
+docker-compose.override.yml

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility Test</title>
+  <style>
+    /* Low contrast text (WCAG 1.4.3 violation) */
+    .low-contrast {
+      color: #cccccc;
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Accessibility Testing Page</h1>
+  </header>
+
+  <!-- Intentionally missing alt text for an image (WCAG 1.1.1 violation) -->
+  <img src="example.jpg">
+
+  <nav>
+    <ul>
+      <!-- Missing skip navigation link (WCAG 2.4.1 violation) -->
+      <li><a href="#main-content">Go to Main Content</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <form action="/submit" method="post">
+      <!-- Missing label for the input field (WCAG 4.1.2 violation) -->
+      <input type="text" name="name" placeholder="Enter your name">
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Low contrast text example -->
+    <p class="low-contrast">This is a low contrast text example.</p>
+
+    <!-- Missing ARIA role example (WCAG 4.1.2 violation) -->
+    <div tabindex="0">This should have an ARIA role.</div>
+
+    <!-- Redundant links (WCAG 2.4.4 violation) -->
+    <a href="https://example.com">Learn more</a>
+    <a href="https://example.com">Click here</a>
+  </main>
+</body>
+</html>
