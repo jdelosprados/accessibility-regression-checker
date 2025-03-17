@@ -7,11 +7,6 @@
   <p align="center">
     A toolchain to automate web accessibility regression checks.
     <br />
-    <a href="">View Demo</a>
-    ·
-    <a href="">Report Bug</a>
-    ·
-    <a href="">Request Feature</a>
   </p>
 </div>
 
